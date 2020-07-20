@@ -24,4 +24,4 @@ app.post('/api/addlogs', function (req, res) {
 });
  
 
-app.listen(3000, ()=> console.log('Listening'))
+app.listen(process.env.PORT || 8080);
